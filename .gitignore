@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data (large files)
+data/embeddings.npy
+data/texts.json
+data/ground_truth.json
+data/synthetic_vectors.npy
+data/synthetic_labels.npy
+models/
+
+# Benchmark results (keep plots, ignore raw data)
+benchmark/results/*.json
+
+# Flask
+instance/
